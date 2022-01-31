@@ -13,11 +13,11 @@ int main(){
   std::cin >> b;
 
   //return the smallest of the two
-  /*if (a<b){
+  if(a<b) {
     std::cout << "The smallest number is " << a;
-  } else (b<a){
+  } else {
     std::cout << "The smallest number is " << b;
-  }*/
+  }
   
   return 0;
 }
