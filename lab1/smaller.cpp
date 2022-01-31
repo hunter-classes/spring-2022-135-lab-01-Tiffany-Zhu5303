@@ -6,17 +6,17 @@ int main(){
   //ask user to input two numbers 
   int a, b;
 
-  std::cout << "Enter a number:\n";
+  std::cout << "Enter the first number: ";
   std::cin >> a;
 
-  std::cout << "Enter another number:\n";
+  std::cout << "Enter the second number: ";
   std::cin >> b;
 
   //return the smallest of the two
   if(a<b) {
-    std::cout << "The smallest number is " << a;
+    std::cout << "\nThe smaller of the two is " << a;
   } else {
-    std::cout << "The smallest number is " << b;
+    std::cout << "\nThe smaller of the two is " << b;
   }
   
   return 0;
