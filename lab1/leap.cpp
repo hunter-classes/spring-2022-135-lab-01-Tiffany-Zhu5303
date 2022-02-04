@@ -1,14 +1,13 @@
 #include <iostream>
 
 int main(){
-  //ask user to input the year and month (1-12)
+  //ask user to input year
   int year;
 
-  std::cout << "Enter year: ";
+  std::cout << "Enter year:";
   std::cin >> year;
 
-  //print number of days in that month
-  
+  //return common or leap year for inputted year
   if (year % 4 != 0){
     std::cout << "Common year";
   }else if (year % 100 != 0){
@@ -20,4 +19,4 @@ int main(){
   }
 
   return 0;
-}
+} 
